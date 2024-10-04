@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+BMI Calculator
+        </title>
+    </head>
+    <body>
+        <h3>Body Mass Index Calculator</h3>
+      <form classname="form" id="form" onsubmit="return validateForm()">
+      <div classname="div_one">
+        <input type="text" classname="inputfield" id="name" required/><p classname="text">Name</p>
+        <input type="number" classname="inputfield" id="age" required/><p classname="text">Age</p>
+        <label classname="gender">
+        <input type="radio" name="radio" id="female"><p classname="text">Female</p>
+          <span classname="checkmark"></span>
+        </label>
+        <label classname="gender">
+        <input type="radio" name="radio" id="male"><p classname="text">Male</p>
+          <span classname="checkmark"></span>
+        </label>
+        </div>
+      
+      <div class="div-two">
+        <input type="number" class="inputfield" id="height" required><p classname="text">Height (cm)</p>
+        <input type="number" class="inputfield" id="weight" required><p classname="text">Weight (kg)</p>
+      </div>
+      <button type="button" id="submit">Submit</button>
+      </form>
+      </body>
+</html>
